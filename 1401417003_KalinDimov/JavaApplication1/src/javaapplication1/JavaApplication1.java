@@ -70,4 +70,5 @@ class RandomGenerator extends Random {
         public int nextInt(int lower, int upper) {
                 return nextInt((upper - lower + 1)) + lower;
         }
+		//-----------------------------------
 }
